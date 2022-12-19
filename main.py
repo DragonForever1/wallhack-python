@@ -1,7 +1,7 @@
 import pymem
 
-dwEntityList = 0x4DFDE84
-dwGlowObjectManager = 0x5358958
+dwEntityList =0x4DFFF14
+dwGlowObjectManager = 0x535A9D8
 m_iGlowIndex = 0x10488
 
 pm = pymem.Pymem("csgo.exe")
