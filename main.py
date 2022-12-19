@@ -26,6 +26,6 @@ def glowmodule():
                     pm.write_float(glow + entityglowing * 0x38 + 0x14, float(1))
                     pm.write_int(glow + entityglowing * 0x38 + 0x28, 1)
 
-#cycle which will do infinite function main
+#cycle which will do infinite function 'main'
 if __name__ == '__main__':
     main()
