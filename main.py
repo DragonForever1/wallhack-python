@@ -27,5 +27,5 @@ def glowmodule():
                     pm.write_int(glow + entityglowing * 0x38 + 0x28, 1)
 
 #cycle which will do infinite function 'main'
-if __main__ == '__main__':
+if __name__ == '__main__':
     main()
